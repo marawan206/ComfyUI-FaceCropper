@@ -41,7 +41,7 @@ print(cropped.shape)  # Output shape should be (1, 1024, 682, 3)
 ## Running Tests
 To verify functionality, run:
 ```sh
-pytest tests.py
+pytest test.py
 ```
 
 ## Contributing
