@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 from typing import Tuple
 
-class MarwanFaceCropping:
+class NodoFaceCropping:
     """
     A custom node to crop an image to a 2:3 aspect ratio
     """
@@ -51,10 +51,10 @@ class MarwanFaceCropping:
 
 # Node class mappings
 NODE_CLASS_MAPPINGS = {
-    "MarwanFaceCropping": MarwanFaceCropping
+    "NodoFaceCropping": NodoFaceCropping
 }
 
 # Node display name mappings
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "MarwanFaceCropping": "Face Cropper (2:3 Ratio)"
+    "NodoFaceCropping": "Face Cropper (2:3 Ratio)"
 }
