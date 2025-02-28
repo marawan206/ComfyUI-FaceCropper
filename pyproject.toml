@@ -1,0 +1,14 @@
+[project]
+name = "facecropper"
+description = "The Face Cropper Node (MarwanFaceCropping) is a custom image processing node designed for ComfyUI. It takes an input image and crops it to a 2:3 aspect ratio, ensuring that most of the subject remains in the frame while maintaining the correct proportions."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/marawan206/ComfyUI-FaceCropper"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-FaceCropper"
+Icon = ""
