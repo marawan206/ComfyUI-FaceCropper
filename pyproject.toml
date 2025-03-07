@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-facecropping"
+description = "ComfyUI-FaceCropping is a custom node extension for ComfyUI that crops images to a 2:3 aspect ratio while keeping the subject in the frame."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/marawan206/ComfyUI-FaceCropper"
+# Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "marawan206"
+DisplayName = "ComfyUI-FaceCropping"
+Icon = ""
+
